@@ -1,0 +1,18 @@
+Airplanees (Side) dataset. Collected by undergrads at
+California Institute of Technology (Feb '01) from the web.
+
+1074 images of motorbikes from the side. 
+Jpeg format. Variables size, but should be >100 pixels in width.
+
+ImageData.mat is a Matlab file containing the variable
+SubDir_Data which is an 8 x 1074 matrix.
+Each column of this matrix hold the coordinates of 
+the bike within the image, in the form:
+
+[x_bot_left y_bot_left x_top_left y_top_left ... 
+ x_top_right y_top_right x_bot_right y_bot_right]
+
+------------
+
+R. Fergus 15/02/03
+
